@@ -22,4 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+      <repository>
+        <id>armcamo</id>
+        <name>armcamo-releases</name>
+        <url>https://arm.mo.ca.am.ericsson.se/artifactory/proj-training-dev-local</url>
+      </repository>
+      <snapshotRepository>
+        <id>armcamo</id>
+        <name>armcamo-snapshots</name>
+        <url>https://arm.mo.ca.am.ericsson.se/artifactory/proj-training-dev-local</url>
+      </snapshotRepository>
+  </distributionManagement>
+
 </project>
